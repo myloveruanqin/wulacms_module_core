@@ -26,7 +26,7 @@ class UserController extends BackendController {
 	public function changePassword() {
 		return view();
 	}
-
+//ffffff
 	public function changePasswordPost($old,$new_password,$confirm_password) {
 		$user = new UserTable();
 		$rst = $user->get($this->passport->uid);
